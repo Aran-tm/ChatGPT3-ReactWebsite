@@ -3,6 +3,7 @@ import React from 'react'
 // importing all my components
 import { Brand, CTA,  Navbar } from './components';
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
+import './App.css'
 
 // this is my first React component
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
   return (
       <div className='App'>
         <div className='gradient__bg'>
-            {/** This are my Navbar and Header components */}
+              {/** This are my Navbar and Header components */}
             <Navbar />
             <Header />
         </div>
