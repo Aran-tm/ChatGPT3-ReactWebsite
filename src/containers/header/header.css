@@ -35,4 +35,43 @@
     display: flex;
 }
 
-.gpt3__header-content__input input {}
+.gpt3__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: #3D6184;
+}
+
+.gpt3__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 1rem;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.gpt3__header-content__input button:hover {
+    cursor: pointer;
+    transition: ease .3s;
+    transform: scale(1.03);
+}
