@@ -1,4 +1,4 @@
-.gpt3__header{
+.gpt3__header {
     display: fle;
 }
 
@@ -16,5 +16,23 @@
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
-    
+    line-height: 75px;
+    letter-spacing: -0.04rem;
 }
+
+.gpt3__header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.gpt3__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.gpt3__header-content__input input {}
