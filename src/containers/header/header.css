@@ -76,10 +76,12 @@
     border-bottom-right-radius: 5px;
 }
 
-.gpt3__header-content__input button:hover  {
+.gpt3__header-content__input button:hover {
     cursor: pointer;
     transition: ease .3s;
     transform: scale(1.03);
+    background: #f56c4d;
+    border: #f56c4d;
 }
 
 .gpt3__header-content__people {
