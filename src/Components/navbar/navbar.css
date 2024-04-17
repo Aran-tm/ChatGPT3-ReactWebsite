@@ -78,6 +78,8 @@
     cursor: pointer;
     transform: ease .3s;
     transform: scale(1.03);
+    background: #f56c4d;
+    border: #f56c4d;
 }
 
 .gpt3__navbar-menu {

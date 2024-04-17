@@ -7,19 +7,19 @@ function Brand() {
   return (
     <div className='gpt3__brand section__padding'>
       <div>
-        <img src={google} alt="google" />
+        <a href="https://google.com" target='_blank'><img src={google} alt="google" /></a>        
       </div>
       <div>
-        <img src={slack} alt="google" />
+        <a href="https://slack.com" target='_blank'><img src={slack} alt="slack" /></a> 
       </div>
       <div>
-        <img src={atlassian} alt="google" />
+        <a href="https://atlassian.com" target='_blank'><img src={atlassian} alt="atlassian" /></a> 
       </div>
       <div>
-        <img src={dropbox} alt="google" />
+        <a href="https://dropbox.com" target='_blank'><img src={dropbox} alt="dropbox" /></a> 
       </div>
       <div>
-        <img src={shopify} alt="google" />
+        <a href="https://shopify.com" target='_blank'><img src={shopify} alt="shopify" /></a> 
       </div>
     </div>
   )
