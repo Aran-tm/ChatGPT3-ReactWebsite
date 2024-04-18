@@ -24,6 +24,7 @@
 
 .gpt3__blog-container_groupA {
     flex: 0.75;
+    max-height: 35rem;
     margin-right: 2rem;
 }
 

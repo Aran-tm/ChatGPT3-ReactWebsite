@@ -1,7 +1,6 @@
 .gpt3__possibility {
     display: flex;
     flex-direction: row;
-    padding: 0 6rem !important;
 }
 
 .gpt3__possibility-image {
@@ -9,6 +8,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
     margin-right: 2rem;
 }
 
@@ -20,9 +20,9 @@
 .gpt3__possibility-content {
     flex: 1;
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    flex-direction: column;
 }
 
 .gpt3__possibility-content h4 {
@@ -34,7 +34,7 @@
 }
 
 .gpt3__possibility-content h4:last-child {
-    color: #FF8A71;
+    color: #ff8A71;
 }
 
 .gpt3__possibility-content h1 {
@@ -46,16 +46,16 @@
 }
 
 .gpt3__possibility-content p {
-    font-family: var(--font-family);
-    font-size: 16px;
     color: var(--color-text);
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
     line-height: 30px;
+
+    margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 990px) {
-    
+@media screen and (max-width: 950px) {
     .gpt3__possibility {
         flex-direction: column;
     }
@@ -64,7 +64,19 @@
         margin: 1rem 0;
     }
 
+    .gpt3__possibility-image img {
+        width: 90%;
+        height: 90%;
+    }
+
     .gpt3__possibility-content {
         margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__possibility-image img {
+        width: 100%;
+        height: 100%;
     }
 }
