@@ -1,6 +1,6 @@
 Sitio web construido en React. Landing page a utilizar para el sitio web de Chat-GPT3:
 
-![Screenshot (300)](https://github.com/Aran-tm/ChatGPT3-ReactWebsite/assets/113542332/74f97522-120a-49ab-b3ae-ab0f564f1878)
+![Screenshot (301)](https://github.com/Aran-tm/ChatGPT3-ReactWebsite/assets/113542332/3ffc5134-5552-406d-9083-4a8b09362280)
 
 # Getting Started with Create React App
 
